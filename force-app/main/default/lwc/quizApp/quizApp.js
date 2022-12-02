@@ -36,7 +36,7 @@ export default class QuizApp extends LightningElement {
             correctAnswer : "c"
         }
     ]
-
+//
     get allNotSelected()
     {
         return !(Object.keys(this.selected).length === this.myQuestions.length)
