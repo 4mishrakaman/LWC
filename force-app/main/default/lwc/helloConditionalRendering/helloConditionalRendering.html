@@ -1,0 +1,18 @@
+<template>
+    <lightning-card>
+        <template if:true={isVisible}>
+            <div>
+                Hello World
+            </div>
+        </template>
+        <lightning-button variant="brand" 
+        label="Show Data" title="Show Data" 
+        onclick={showHandler} class="slds-var-m-left_x-small">
+    </lightning-button>
+    <lightning-button variant="brand" 
+        label="Hide Data" title="Hide Data" 
+        onclick={hideHandler} class="slds-var-m-left_x-small">
+    </lightning-button>
+
+    </lightning-card>
+</template>
